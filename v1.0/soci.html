@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/soci.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <title>GladiGym</title>
+</head>
+
+<body>
+    <div class="all">
+        <header>
+            <nav>
+               <a href="index.html">
+                        <img src="img/logo_gym.jpg" alt="Inici" class="logo">
+                    </a>
+                <ul>
+                    <a href="contacte.html">
+                        <li class="menu1">Contacte</li>
+                    </a>
+                </ul>
+                <a href="soci.html" class="soci">Soci</a>
+            </nav>
+        </header>
+        <section>
+            <article class="info">
+                <h2>La teva informació</h2>
+                <form action="">
+                    <div class="canviar">
+                        <div class="eform">
+                            <label for="nom">Nom</label>
+                            <input type="text" id="nom" name="nom">
+                        </div>
+                        <div class="eform">
+                            <label for="cognom">Cognom</label>
+                            <input type="text" id="cognom" name="cognom">
+                        </div>
+                        <div class="eform">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email">
+                        </div>
+                    </div>
+                    <div class="nocanviar">
+                        <div class="eform">
+                            <label for="datan">Data de naixement</label>
+                            <input type="date" id="datan" name="datan">
+                        </div>
+                        <div class="eform">
+                            <label for="dataa">Data d'alta</label>
+                            <input type="date" id="dataa" name="dataa">
+                        </div>
+                        <div class="eform">
+                            <label for="datab">Data de baixa</label>
+                            <input type="date" id="datab" name="datab">
+                        </div>
+                    </div>
+                    <input type="submit" class="bguardar" value="Guardar">
+                </form>
+                <p class="lquota">Quota actual:</p>
+                <p class="quota">100€</p>
+            </article>
+            <article class="act">
+                <h2>Activitats inscrites</h2>
+                <table>
+                    <tr>
+                        <th>Nom</th>
+                        <th>Sala</th>
+                        <th>Duració (min)</th>
+                        <th>Dies</th>
+                    </tr>
+                    <tr class="verd">
+                        <td>Pàdel</td>
+                        <td>15</td>
+                        <td>120</td>
+                        <td>Dilluns i Dimecres</td>
+                    </tr>
+                    <tr class="vermell">
+                        <td>Defensa personal</td>
+                        <td>6</td>
+                        <td>60</td>
+                        <td>Dimarts i Dijous</td>
+                    </tr>
+                </table>
+            </article>
+        </section>
+        <footer>
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-youtube"></a>
+        </footer>
+    </div>
+</body>
+
+</html>

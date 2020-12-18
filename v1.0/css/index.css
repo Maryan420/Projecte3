@@ -1,0 +1,170 @@
+* {
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #000000;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+}
+.all {
+    width: 50%;
+    margin: 0 auto;
+}
+nav{
+    background-color: #541cfc;
+    height: 100px;
+    display: flex;
+    margin: auto;
+}
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-weight: bold;
+}
+nav ul{
+    height: 20%;
+    background-color: #541cfc;
+    padding-top: 4%;
+}
+.logo{
+    height: 38px;
+    padding-top: 30px;
+    padding-bottom: 32px;
+    background-color: #541cfc;
+}
+.menu1{
+    padding: 10px;
+    margin: 0px -3px ;
+    background-color: #428bca;
+}
+.soci{
+    float: left;
+    text-align: center;
+    padding: 10px;
+    height: 20px;
+    width: 80px;
+    margin-left: 60%;
+    margin-top: 30px;
+    background-color: #0844a4;
+}
+
+#slideshow ul{
+    text-decoration: none;
+    color: #09ff00;
+    list-style: none;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+} 
+#slideshow ul li{
+    width: 176px;
+    display: inline-block;
+    padding: 15px 0px;
+}
+#ubicacio h3{
+    color: #09ff00;
+    font-size: 26px;
+    text-align: center;
+    padding: 10px;
+}
+#ubicacio img{
+    width: 767px;
+}
+#promos{
+    background: url(../img/fondopromo.jpg);
+    padding: 3% 0% 5% 0%;
+    background-size: cover;;
+    background-repeat: no-repeat;
+    
+}
+#promos div{
+    display: inline-block;
+    background-color: #f4eb49;
+    text-align: center;
+    color: red;
+    font-weight: bold;
+    margin-left: 47px;
+    width: auto;
+    height: 148px;
+    margin-top: 3%;
+}
+#promos p{
+    background-color: #f4eb49;
+}
+#promos h3{
+    color: #09ff00;
+    font-size: 26px;
+    text-align: center;
+    padding: 15px;
+    margin-top: -3%;
+}
+#promos img{
+    width: auto;
+    height: 118px;
+}
+footer{
+    height: 30%;
+    text-align: center;
+}
+/*Estils del iconos*/
+.fa{
+    padding: 10px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px;
+    margin-top: 40px;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+/*Estils Slideshow*/
+.mySlides {
+    display: none;
+}
+
+#slideshow img {
+    width: 767px;
+}
+
+.slideshow-container {
+    position: relative;
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}

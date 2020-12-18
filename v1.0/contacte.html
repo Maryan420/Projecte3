@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/contacte.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <title>GladiGym</title>
+</head>
+
+<body>
+    <div class="all">
+        <header>
+            <nav>
+                <a href="index.html">
+                    <img src="img/logo_gym.jpg" alt="Inici" class="logo">
+                </a>
+                <ul>
+                    <a href="contacte.html">
+                        <li class="menu1">Contacte</li>
+                    </a>
+                </ul>
+                <a href="soci.html" class="soci">Soci</a>
+            </nav>
+        </header>
+        <section>
+            <h1>Contacta amb nosaltres</h1>
+            <form action="#">
+                <div class="nomcognom">
+                    <div class="divnom">
+                        <label for="nom">Nom</label> <br>
+                        <input type="text" id="nom" name="nom" required placeholder="Nom"><br>
+                    </div>
+                    <div class="divcognom">
+                        <label for="cognom">Cognom</label><br>
+                        <input type="text" id="cognom" name="cognom" required placeholder="Cognom"><br>
+                    </div>
+                </div>
+                <div class="divcorreu">
+                    <label for="correu">Correu</label><br>
+                    <input type="email" id="correu" name="correu" required placeholder="correu@exemple.com"><br>
+                </div>
+                <div class="divcomentari">
+                    <label for="comentari">Comentari o missatge</label><br>
+                    <textarea required placeholder="Escriu aqui!" id="comentari" name="Escriu aqui!">
+                    </textarea>
+                </div>
+
+                <input type="submit" id="envia" name="envia" value="Enviar">
+            </form>
+        </section>
+        <footer>
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-youtube"></a>
+        </footer>
+    </div>
+</body>
+
+</html>

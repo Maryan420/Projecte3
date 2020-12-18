@@ -1,0 +1,80 @@
+section{
+    border: 4px solid white;
+    width: 90%;
+    margin: 1.7% auto;
+}
+.info h2, .act h2{
+    color: #09ff00;
+    text-align: center;
+    font-size: 26px;
+    padding: 1.7% 0%;
+}
+.info form{
+    width: 90%;
+    margin: 1.7% auto;
+}
+.canviar div, .nocanviar div{
+    display: inline-block;
+}
+.eform{
+    width: 30%;
+    padding: 1.4% 1.2%;
+}
+.canviar label{
+    color: white;
+}
+.canviar input{
+    width: 60%;
+    color: black;
+    background-color: white;
+    
+}
+.nocanviar label{
+    color: white;
+}
+.nocanviar input{
+    width: 80%;
+    color: black;
+    background-color: grey;
+}
+.bguardar{
+    background-color: #0844a4;
+    color:#fff;
+    padding: 1.7%;
+    float: right;
+    margin: 4% 8% 2% 1%;
+    border-radius: 20% 20%;
+}
+.lquota{
+    color: #09ff00;
+    font-size: 26px;
+    margin-left: 2%;
+    display: inline-block;
+}
+.quota{
+    color: red;
+    font-size: 26px;
+    display: inline-block;
+}
+table{
+    border: 1px solid black;
+    color: white;
+    width: 97%;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    margin: 1.4% auto;
+}
+table th{
+    background-color: #232323;
+    padding: 1.4%; 
+
+}
+.verd td{
+    background-color: #4c7a34;
+    padding: 1.4%;
+}
+.vermell td{
+    background-color: #5e0202;
+    padding: 1.4%;
+}

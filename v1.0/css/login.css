@@ -1,0 +1,52 @@
+* {
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #000000;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+}
+.all {
+    width: 50%;
+    margin-left: 25%;
+    top: 50%;
+    position: absolute;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+header{
+    margin: 1% auto;
+    text-align: center;
+}
+header img{
+    width: 20%;
+}
+form{
+    margin: auto;
+    text-align: center;
+    
+}
+.llogin{
+    width: 20%;
+    margin: auto;
+    display: block;
+    margin-top: 1%;
+}
+.llogin input{
+    width: 60%;
+    color: black;
+    background-color: white;
+    display: block;
+    margin: auto;
+}
+.benvia{
+    background-color: #0844a4;
+    color:#fff;
+    padding: 1%;
+    margin: 2% auto;
+    border-radius: 20% 20%;
+}

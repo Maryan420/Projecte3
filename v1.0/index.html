@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <title>GladiGym</title>
+</head>
+
+<body>
+    <div class="all">
+        <header>
+            <nav>
+               <a href="index.html">
+                        <img src="img/logo_gym.jpg" alt="Inici" class="logo">
+                    </a>
+                <ul>
+                    <a href="contacte.html">
+                        <li class="menu1">Contacte</li>
+                    </a>
+                </ul>
+                <a href="soci.html" class="soci">Soci</a>
+            </nav>
+            <div id="slideshow">
+                <ul>
+                    <li>Classes dinamiques</li>
+                    <li>Piscina</li>
+                    <li>Pista de padel</li>
+                    <li>Professors</li>
+                    <div class="slideshow-container">
+
+                        <div class="mySlides fade">
+                            <img src="img/Slidshow/001.jpg">
+                        </div>
+                        <div class="mySlides fade">
+                            <img src="img/Slidshow/002.jpg">
+                        </div>
+                        <div class="mySlides fade">
+                            <img src="img/Slidshow/003.jpg">
+                        </div>
+                        <div class="mySlides fade">
+                            <img src="img/Slidshow/004.jpg">
+                        </div>
+                        <div class="mySlides fade">
+                            <img src="img/Slidshow/005.jpg">
+                        </div>
+                        <div class="mySlides fade">
+                            <img src="img/Slidshow/006.jpg">
+                        </div>
+                        <div class="mySlides fade">
+                            <img src="img/Slidshow/007.jpg">
+                        </div>
+                        <div class="mySlides fade">
+                            <img src="img/Slidshow/008.jpg">
+                        </div>
+
+                    </div>
+                </ul>
+            </div>
+        </header>
+        <section>
+            <article id="ubicacio">
+                <h3>Ubicació perfecta per a una experiencia única</h3>
+                <img src="img/mapa.png" alt="Mapa de la ubicació del gimnas">
+            </article>
+            <article id="promos">
+                <h3>Promocions per a socis</h3>
+                <div>
+                    <img src="img/promo1.jpg" alt="Promoció Nº1">
+                    <p>Descomptes unics</p>
+                </div>
+                <div>
+                    <img src="img/promo2.png" alt="Promoció Nº2">
+                    <p>Tractament excepcional</p>
+                </div>
+                <div>
+                    <img src="img/promo3.jpg" alt="Promoció Nº3">
+                    <p>Reserva de sales</p>
+                </div>
+            </article>
+        </section>
+        <footer>
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-youtube"></a>
+        </footer>
+    </div>
+    <script>
+        var slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {
+                slideIndex = 1
+            }
+            slides[slideIndex - 1].style.display = "block";
+            setTimeout(showSlides, 4000);
+        }
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,64 @@
+.all h1 {
+    color: #09ff00;
+    margin: 0 auto;
+    margin-left: 10%;
+    margin-top: 3%;
+    margin-bottom: 1%;
+}
+form{
+    width:80%;
+    margin: auto;
+}
+.nomcognom{
+    display: inline-flex;
+}
+.divnom input{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 144%;
+    padding: 3%;
+    color: black;
+    background-color: white;
+}
+.divcognom label{
+    margin-left: 160%;
+}
+.divcognom input{
+    width: 124%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 160%;
+    padding: 3%;
+    color: black;
+    background-color: white;
+}
+.divcorreu input{
+    width: 100%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 1%;
+    color: black;
+    background-color: white;
+}
+.divcomentari textarea{
+    width: 100%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 1%;
+    height: 114px;
+    color: black;
+    background-color: white;
+}
+#envia{
+    background-color: #0844a4;
+    color:#fff;
+    padding: 1.7%;
+    float: left;
+    margin: 4% 8% 2% 1%;
+    border-radius: 10% 10%;
+    width: 21%;
+    cursor: pointer;
+}
+footer{
+    margin-top: 15%;
+}
